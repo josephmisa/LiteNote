@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Lite Note</string>
+    <string name="navigation_lite_note">Lite Note</string>
+    <string name="navigation_items">Items</string>
+    <string name="navigation_add_note">Add Note</string>
+
+    <string name="label_subject">Subject</string>
+    <string name="label_item">Item</string>
+    <string name="label_enter_subject">Enter Subject</string>
+    <string name="label_enter_new_name">Enter New Name</string>
+    <string name="label_no_subjects">No Subjects</string>
+    <string name="label_no_items">No Items</string>
+    <string name="label_take_photo">Take Photo</string>
+    <string name="label_get_from_gallery">Get from Gallery</string>
+    <string name="label_import_file">Import File</string>
+    <string name="label_add_note">Add Note</string>
+    <string name="label_select">Select</string>
+    <string name="label_delete">Delete</string>
+    <string name="label_move">Move</string>
+    <string name="label_rename">Rename</string>
+
+    <string name="label_title_is_empty">Title is empty</string>
+    <string name="label_note_is_empty">Note is empty</string>
+    <string name="label_move_to">Move to</string>
+    <string name="label_cant_open_file">Can\'t open file</string>
+    <string name="label_create_another_subject">Create another Subject</string>
+
+    <string name="action_ok">Ok</string>
+    <string name="action_search">Search</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+
+    <string name="placeholder_enter_title">Enter Title</string>
+    <string name="placeholder_enter_note">Enter Note</string>
+</resources>

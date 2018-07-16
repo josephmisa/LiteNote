@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/relative_layout_root"
+    android:layout_height="match_parent"
+    android:background="#ffa500"
+    tools:context="com.citu.litenote.activities.SubjectActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_subjects"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvSubject" />
+
+    <TextView
+        android:id="@+id/text_view_no_subjects"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/label_no_subjects"
+        android:textAlignment="center"
+        android:textColor="@android:color/black" />
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fab_create_new_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="8dp"
+        android:src="@drawable/ic_create_new_folder_white"
+        app:fab_colorNormal="#800000"
+        app:fab_colorPressed="#FF4500"
+        app:fab_colorRipple="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvSubject"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="serif-monospace"
+        android:gravity="left"
+        android:text="Subject/s:"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
